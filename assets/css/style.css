@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "IBM", sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+.container .left_side {
+    position: relative;
+    background-color: lightgray;
+    padding: 0;
+}
+.container .right_side {
+    position: relative;
+    background-color: white;
+}
+h1 {
+    margin: 0;
+    font-size: 50px;
+    display:flex;
+    justify-content: center;
+    color: #3a82b6;
+}
+.ttOdemeLogo {
+    padding: 10px 0;
+    margin: 20px auto 0;
+    width: 30%;
+    height: auto;
+    display: flex;
+}
+h2 {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+h3 {
+    margin-top: 10px;
+    margin-left: 0;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h4 {
+    margin-top: 10px;
+    margin-left: 0;
+    font-size: smaller;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.firstParagraph {
+    margin-top: 20px;
+    margin-left: 0;
+    margin-bottom: 20px;
+    word-wrap: normal;
+    display: inline-block;
+    text-indent: 30px;
+}
+.job  {
+    margin: 20px 0 5px;
+    word-wrap: normal;
+    display: block;
+    text-indent: 0;
+    padding: 5px 30px;
+}
+blockquote {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.fa-solid.fa-check{
+    color: #3a82b6;
+}
+.quote {
+    font-size: larger;
+    font-weight: bold;
+    background-color: lightgray;
+    text-align: center;
+}
+.fa-solid.fa-graduation-cap {
+    color: #3a82b6;
+}
+.uniLogo {
+    padding: 10px 0;
+    margin: 20px auto 0;
+    width: 90px;
+    height: 10%;
+    display: flex;
+}
+.metuLogo {
+    padding: 10px 0;
+    margin: 20px auto 0;
+    width: 150px;
+    height: auto;
+    display: flex;
+}
+.fa-solid.fa-briefcase {
+    color: #3a82b6;
+}
+.cardifLogo {
+    padding: 10px 0;
+    margin: 20px auto 0;
+    width: 35%;
+    height: auto;
+    display: flex;
+}
+.globalBilgiLogo {
+    padding: 10px 0;
+    margin: 20px auto 0;
+    width: 30%;
+    height: auto;
+    display: flex;
+}
+.cmcLogo {
+    padding: 10px 0;
+    margin: 20px auto 0;
+    width: 30%;
+    height: auto;
+    display: flex;
+}
+
+/* --------- left side starts here --------- */
+
+.photo {
+    margin: 17px auto 150px auto;
+    padding: 0 20px;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.contactInfo.gmail {
+    width: 332px;
+    height: 40px;
+    color: ghostwhite;
+    font-weight: bold;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background: radial-gradient(circle, rgba(99,150,177,0.269642891336222) 10%, rgba(50,145,194,1) 100%);}
+.mailAddress {
+    margin-top: -22px;
+    margin-left: 10px;
+}
+.fa-solid.fa-mobile-screen-button {
+    color: #3a82b6;
+}
+.phone {
+    width: 332px;
+    height: 40px;
+    color: ghostwhite;
+    text-indent: 80px;
+    font-weight: bold;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background: radial-gradient(circle, rgba(99,150,177,0.269642891336222) 10%, rgba(124,181,216,1) 100%); margin-left: 0;
+}
+.phoneNumber {
+    margin-top: -20px;
+    margin-left: 10px;
+}
+.linkedin {
+    width: 332px;
+    height: 40px;
+    color: ghostwhite;
+    text-indent: 80px;
+    font-weight: bold;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background: radial-gradient(circle, rgba(99,150,177,0.269642891336222) 10%, rgba(213,235,246,1) 100%);}
+.linkedinLogo {
+    width: 30px;
+    height: 30px;
+    color: #3a82b6;
+    margin-left: -37px;
+    margin-top: 5px;
+}
+.linkedinAddress {
+    color: white;
+    margin-top: -28px;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+.contactInfo{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    text-indent: unset!important;
+    margin: 0!important;
+    padding: 10px 0 10px 20px;
+}
+.contactInfo img,
+.contactInfo div,
+.contactInfo i,
+.contactInfo span{
+    display: inline-block;
+    margin: 0!important;
+}
+.contactInfo span{ width: 30px; margin-right: 10px!important; text-align: center; }
+.contactInfo i{ font-size: 24px}
+.contactInfo a{ color: #fff;}
+.contactInfo img.gmailLogo{ width: 26px; height: auto }
+.contactInfo img.linkedinLogo{ width: 24px; height: auto }
+.leftHeading {
+    font-size: 25px;
+    margin-top: 150px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.personalInfo {
+    margin-top: 15px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+.h15 {
+    margin-left: 60px;
+}
+.h16 {
+    margin-left: 4px;
+}
+.h17 {
+    margin-left: 35px;
+}
+.h18 {
+    margin-left: 63px;
+}
+.h19 {
+    margin-left: 5px;
+    font-weight: normal;
+}
+.h20 {
+    margin-left: 5px;
+    font-weight: normal;
+}
+.h21 {
+    margin-left: 5px;
+    font-weight: normal;
+}
+.h22 {
+    margin-left: 5px;
+    font-weight: normal;
+}
+.skillName {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.wrapper {
+    position: relative;
+}
+.remaining {
+    margin-top: 10px;
+    margin-left: 20px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    width: 250px;
+    height: 20px;
+    background-color: grey;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    overflow: hidden;
+}
+.remaining:after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 100%;
+    background-color: #3994c1;
+    border-bottom-right-radius: 10px;
+}
+.englishSkill .remaining:after{ width: 90%}
+.officeSkill .remaining:after{ width: 85%}
+.riskSkill .remaining:after{ width: 80%}
+.auditSkill .remaining:after{ width: 70%}
+.complianceSkill .remaining:after{ width: 50%}
+.developerSkill .remaining:after{ width: 50%}
+.englishBar {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 40px;
+    width: 230px;
+    height: 20px;
+    background-color: #3994c1;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    display: none!important;
+}
+.officeBar {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 40px;
+    width: 220px;
+    height: 20px;
+    background-color: #3994c1;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.riskbar {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 40px;
+    width: 220px;
+    height: 20px;
+    background-color: #3994c1;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.auditbar {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 40px;
+    width: 180px;
+    height: 20px;
+    background-color: #3994c1;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.complianceBar {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 40px;
+    width: 180px;
+    height: 20px;
+    background-color: #3994c1;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.cssBar {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 40px;
+    width: 80px;
+    height: 20px;
+    background-color: #3994c1;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.tennisLogo {
+    margin-top: 10px;
+    width: 40%;
+    height: auto;
+    padding-left: 20px;
+}
+.tennis {
+    margin-left: 200px;
+    margin-top: -65px;
+    font-weight: bold;
+}
+.hobbiesLogo {
+    margin-top: 80px;
+    width: 40%;
+    height: auto;
+    padding-left: 20px;
+}
+.camping {
+    margin-left: 200px;
+    margin-top: -65px;
+    font-weight: bold;
+}
+.trekking {
+    margin-left: 200px;
+    margin-top: -65px;
+    font-weight: bold;
+}
+.fitness {
+    margin-left: 200px;
+    margin-top: -65px;
+    font-weight: bold;
+}
+.boxing {
+    margin-left: 200px;
+    margin-top: -65px;
+    font-weight: bold;
+}
+.web {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+}
+.webLogo {
+    margin-top: 20px;
+    width: 300px;
+    height: 220px;
+    margin-left: 17px;
+}
+.freeCodeCamp {
+    font-size: 15px;
+    text-align: center;
+}
+.reference {
+    margin-top: 150px;
+    font-weight: bold;
+    text-align: center;
+}
+.webYear {
+    margin-top: 0;
+    font-weight: normal;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+*, ::after, ::before{
+    box-sizing: border-box;
+}
