@@ -5,7 +5,7 @@ Everybody has curriculum vitae, right? Plus, everyone wants their CV to be seen 
 
 This is how you can do it! 👇🏻
 
-Different kinds of Bootsraps
+Different kinds of Bootsraps...
 
 ![CVprewiev](https://user-images.githubusercontent.com/121757537/210330799-f2fbd1f7-7891-49dc-bbbd-83b55d4450ce.jpg)
 
