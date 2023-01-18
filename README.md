@@ -29,7 +29,7 @@ Grey on the left 👈🏻
 
 White on the right 👉🏻
 
-You are given images. The text is ready for you in the CV.html file. Write your HTML and CSS codes in the CV.html and style.css files, respectively. 
+You are given images. The text is ready for you in the index.html file. Write your HTML and CSS codes in the index.html and style.css files, respectively. 
 
 Let's prepare a professional CV so that recruiters be surprised!!!
 
